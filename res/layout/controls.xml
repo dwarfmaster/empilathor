@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+	<Button
+		android:text="Haut"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="35"
+		android:onClick="up"
+		/>
+
+	<Button
+		android:text="Stop"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="30"
+		android:onClick="stop"
+		/>
+
+	<Button
+		android:text="Bas"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="35"
+		android:onClick="down"
+		/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true">
+		<TextView
+			android:id="@+id/connexionLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:text="Cliquer pour se connecter"
+			android:textSize="24sp"
+			/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/connexionLabel"
+			android:layout_margin="50dip"
+			android:text="Connexion"
+			android:onClick="connexion"
+			/>
+	</RelativeLayout>
+</RelativeLayout>
