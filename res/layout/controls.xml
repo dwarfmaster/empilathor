@@ -9,7 +9,7 @@
 		android:text="Haut"
 		android:layout_width="fill_parent"
 		android:layout_height="0dip"
-		android:layout_weight="35"
+		android:layout_weight="30"
 		android:onClick="up"
 		/>
 
@@ -17,7 +17,7 @@
 		android:text="Stop"
 		android:layout_width="fill_parent"
 		android:layout_height="0dip"
-		android:layout_weight="30"
+		android:layout_weight="25"
 		android:onClick="stop"
 		/>
 
@@ -25,8 +25,7 @@
 		android:text="Bas"
 		android:layout_width="fill_parent"
 		android:layout_height="0dip"
-		android:layout_weight="35"
+		android:layout_weight="30"
 		android:onClick="down"
 		/>
-
 </LinearLayout>
