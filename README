@@ -20,3 +20,9 @@ bluetooth. Il a été créé dans le cadre d'un TP de SI en seconde au
 lycée Pierre de Fermat à Toulouse. Il nécessite obligatoirement des 
 modifications pour fonctionner avec d'autres projets.
 
+Pour pouvoir compiler ce projet, vous devez créer un fichier 
+local.properties avec le contenu suivant :
+sdk.dir=/path/to/sdk
+puis tapez "ant clean debug".
+Vous trouverez l'apk dans le dossier bin.
+
