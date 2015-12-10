@@ -44,7 +44,7 @@ import java.io.OutputStream;
 public class EmpilaThorActivity extends Activity {
 	// LES CONSTANTES
 	private static final int SUCCEEDED = 1, FAILED = 0;
-	private static final String DEVICE_NAME = "ROBO TX-419"; // Le nom du périphérique bluetooth
+	private static final String DEVICE_NAME = "ArchYvon-0"; // Le nom du périphérique bluetooth
 	private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB"); // Sert à identifier l'application lors de la connection bluetooth
 	private static final int LEFT = 0, RIGHT = 1, STOP = 2; // Les variables de direction : X ...
 	private static final int FORWARD = 0, BACKWARD = 1; // ... et Y
